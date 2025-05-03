@@ -44,7 +44,7 @@ class ModWatch(gdb.Command):
             return
 
         img_base = int(argv[0], 16)
-        addr = img_base + 0x48C3
+        addr = img_base + 0x48C3 # breakpoint offset
         ModPrint(addr, argv[1])
 
 ModWatch()

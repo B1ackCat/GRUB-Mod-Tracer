@@ -2,7 +2,7 @@
 A small GDB extension for **module‑load tracing** of dynamically loaded GRUB modules (e.g. `linux.mod`).
 
 > [!WARNING]
-> This script was tested on **Ubuntu 24.04** with **GRUB 2.12** (`grubx64.efi`).  
+> This script was tested on **Ubuntu 24.04 (amd64)** with **GRUB 2.12** (`grubx64.efi`).  
 > Ubuntu 24.04 was run inside **QEMU**.
 
 ## Usage

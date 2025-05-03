@@ -20,3 +20,5 @@ On a successful **module‑load tracing**, GDB prints:
 As mentioned above, `mod_trace.py` has only been tested on Ubuntu 24.04 with GRUB 2.12 (`grubx64.efi`).  
 If you are using a different environment, the breakpoint offset may vary.  
 Should you need to adjust it, set the offset to the first instruction executed **immediately after** the call to `grub_dl_load_core_noinit`.
+# Reference
+- Structure: https://elixir.bootlin.com/grub/grub-2.12/source/include/grub/dl.h#L174

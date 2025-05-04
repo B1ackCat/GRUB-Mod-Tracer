@@ -1,0 +1,7 @@
+// /** @file
+// ImgBaseDebug Application
+// **/
+
+#string STR_MODULE_ABSTRACT             #language en-US "ImgBaseDebug Application"
+
+#string STR_MODULE_DESCRIPTION          #language en-US "ImgBaseDebug Application"
